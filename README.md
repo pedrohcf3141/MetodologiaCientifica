@@ -56,7 +56,7 @@ A arquitetura geral do sistema pode ser observada na imagem a seguir, sendo que:
 Conectivo entre o Cliente e o Armazenamento, onde ocorre o controle de rotas e o processamento das regras de negócio. o NGINX Proxy Reverso – Mediador entre aplicações e servidores. o Vue NGINX​ – Lugar em que é feito o build dos arquivos estáticos. o API Aplicação WEB/Mobile – API REST respo
 ##### ● Armazenamento / Persistência
 Ambientes em que são armazenados os dados do sistema, banco de dados. o PostgreSQL – Banco de dados. o AWS – Responsável por armazenar as mídias enviadas pelo aplicativo mobile.
-
+![](static/diagrama01.png)
 Diagrama 1 –Arquitetura do sistema
 
 #### Modelo de Dados
