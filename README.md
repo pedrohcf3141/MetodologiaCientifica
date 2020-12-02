@@ -85,6 +85,7 @@ interno como notificações.
 tokens - tokens para acesso via JWT.
 
 
+![](static/diagrama02.png)
 
 Diagrama 2 –Banco de Dados
 
@@ -95,6 +96,7 @@ inicialmente para cobrir as funcionalidades principais da API tanto o que alimen
 quanto o site interno, conforme a imagem abaixo até o momento 78% do código atual passa
 pelos testes.
 
+![](static/figura01.png)
 
 Figura 1 – Cobertura Coverage
 
@@ -106,29 +108,38 @@ alguns endpoints, focando de forma inicial em testes funcionais.
 
 ##### Criação de um novo usuário do aplicativo:
 
+![](static/figura02.png)
 
 Figura 2 –Setup classe de teste do usuário do aplicativo
 
+![](static/figura03.png)
 
 Figura 3 – Teste de criação de um novo usuário do aplicativo
 
+![](static/figura04.png)
 
 Figura 4 – Teste de criação de usuário do aplicativo já existente no banco
 
 ##### Criação e visualização de um novo usuário do site interno:
 
+![](static/figura05.png)
 
 Figura 5 – Setup classe de teste do usuário do aplicativo
 
+![](static/figura06.png)
 
 Figura 6 – Teste de criação de usuário do site interno.
 
+![](static/figura07.png)
 
 Figura 7 – Teste de criação de usuário do site interno já existente no banco
 
+![](static/figura08.png)
 
 Figura 8 – Teste de visualização de usuário do site interno ativo.
 
+
+![](static/figura09.png)
 
 Figura 9 – Teste de visualização de usuário do site interno inativo.
 
